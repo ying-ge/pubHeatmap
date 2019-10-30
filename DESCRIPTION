@@ -1,0 +1,22 @@
+Package: pubHeatmap
+Type: Package
+Title: A package for drawing heatmap in publication quality
+Version: 0.1.0
+Author: Ying Ge, Xiaofan Lu, Hao Li
+Author@R: c(
+  person("Ying","Ge", email = "geying.tju@gmail.com", role = c("aut", "cre")),
+  person("Xiaofan", "Lu", email = "627922151@qq.com", role = c("aut")),
+  person("Hao","Li", email = "drlee0103@outlook.com", role = c("aut"))
+  )
+Maintainer: Ying Ge <geying.tju@gmail.com>
+Description: Easy-to-use functions to produce heatmap in publication quality.
+    based on ComplexHeatmap and pheatmap packages.
+Depends: R (>= 3.5.0)
+Imports: ComplexHeatmap, pheatmap, circlize
+URL: https://github.com/ying-ge/diHeatmap
+License: MIT License
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 2.1.0)
